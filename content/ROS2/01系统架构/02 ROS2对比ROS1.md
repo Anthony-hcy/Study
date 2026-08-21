@@ -1,12 +1,12 @@
 ---
-title: "ROS2对比ROS1 - 图书资源"
-source: "https://book.guyuehome.com/ROS2/1.%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%84/1.2_ROS2%E5%AF%B9%E6%AF%94ROS1/"
+title: ROS2对比ROS1
+source: https://book.guyuehome.com/ROS2/1.%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%84/1.2_ROS2%E5%AF%B9%E6%AF%94ROS1/
 author:
 published:
 created: 2026-08-04
-description: "图书资源·古月居"
+description: 图书资源·古月居
 tags:
-  - "clippings"
+  - clippings
 ---
 ## ROS2对比ROS1
 

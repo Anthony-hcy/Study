@@ -1,5 +1,5 @@
 ---
-title: "DDS - 图书资源"
+title: "DDS"
 source: "https://book.guyuehome.com/ROS2/2.%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5/2.10_DDS/"
 author:
 published:

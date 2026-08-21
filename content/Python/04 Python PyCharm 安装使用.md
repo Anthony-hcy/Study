@@ -1,12 +1,12 @@
 ---
-title: "Python PyCharm 安装使用 | 菜鸟教程"
-source: "https://www.runoob.com/python3/python-pycharm-usage.html"
+title: Python PyCharm 安装使用
+source: https://www.runoob.com/python3/python-pycharm-usage.html
 author:
 published:
 created: 2026-08-05
-description: "Python PyCharm 安装使用  PyCharm 是 JetBrains 出品的 Python 集成开发环境（IDE），拥有智能代码补全和图形化调试功能，支持 Windows /macOS/ Linux 全平台。。  PyCharm 是一套写代码、跑程序、排错、管理项目、协作一体化工具，是目前行业最主流的 Python 开发工具。 本章节我们将介绍 Python 和 PyCharm 的安装，并创建运行你的第一个 Python 程.."
+description: Python PyCharm 安装使用  PyCharm 是 JetBrains 出品的 Python 集成开发环境（IDE），拥有智能代码补全和图形化调试功能，支持 Windows /macOS/ Linux 全平台。。  PyCharm 是一套写代码、跑程序、排错、管理项目、协作一体化工具，是目前行业最主流的 Python 开发工具。 本章节我们将介绍 Python 和 PyCharm 的安装，并创建运行你的第一个 Python 程..
 tags:
-  - "clippings"
+  - clippings
 ---
 ## Python3.xPython PyCharm 安装使用
 

@@ -1,12 +1,12 @@
 ---
-title: "Python3 教程 | 菜鸟教程"
-source: "https://www.runoob.com/python3/python3-tutorial.html"
+title: Python3 教程
+source: https://www.runoob.com/python3/python3-tutorial.html
 author:
 published:
 created: 2026-08-05
-description: "Python 3 教程     Python 的 3.0 版本，常被称为 Python 3000，或简称 Py3k。相对于 Python 的早期版本，这是一个较大的升级。为了不带入过多的累赘，Python 3.0 在设计的时候没有考虑向下兼容。 Python 介绍及安装教程我们在Python 2.X 版本的教程中已有介绍，这里就不再赘述。 你也可以点击  Python2.x与3​​.x版本区别 来查看两者的不同。 本教程主要针对 Pyt.."
+description: Python 3 教程     Python 的 3.0 版本，常被称为 Python 3000，或简称 Py3k。相对于 Python 的早期版本，这是一个较大的升级。为了不带入过多的累赘，Python 3.0 在设计的时候没有考虑向下兼容。 Python 介绍及安装教程我们在Python 2.X 版本的教程中已有介绍，这里就不再赘述。 你也可以点击  Python2.x与3​​.x版本区别 来查看两者的不同。 本教程主要针对 Pyt..
 tags:
-  - "clippings"
+  - clippings
 ---
 ## Python3.xPython 3 教程
 

@@ -1,12 +1,12 @@
 ---
-title: "Python VScode 配置 | 菜鸟教程"
-source: "https://www.runoob.com/python3/python-vscode-setup.html"
+title: Python VScode 配置
+source: https://www.runoob.com/python3/python-vscode-setup.html
 author:
 published:
 created: 2026-08-05
-description: "Python VScode 配置 在上一章节中我们已经安装了 Python 的环境，本章节我们将介绍 Python VScode 的配置。 准备工作：  安装 VS Code 安装 VS Code Python 扩展 安装 Python 3  安装 VS Code VSCode（全称：Visual Studio Code）是一款由微软开发且跨平台的免费源代码编辑器，VSCode 开发环境非常简单易用。 VSCode 安装也很简单，打开官.."
+description: Python VScode 配置 在上一章节中我们已经安装了 Python 的环境，本章节我们将介绍 Python VScode 的配置。 准备工作：  安装 VS Code 安装 VS Code Python 扩展 安装 Python 3  安装 VS Code VSCode（全称：Visual Studio Code）是一款由微软开发且跨平台的免费源代码编辑器，VSCode 开发环境非常简单易用。 VSCode 安装也很简单，打开官..
 tags:
-  - "clippings"
+  - clippings
 ---
 ## Python3.xPython VScode 配置
 

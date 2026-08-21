@@ -1,12 +1,12 @@
 ---
-title: "Ubuntu 22.04/24.04 安装 ROS2 完整教程（Humble / Jazzy） - 技术栈"
-source: "https://jishuzhan.net/article/2037153277050159106"
+title: Ubuntu 22.04/24.04 安装 ROS2 完整教程（Humble / Jazzy）
+source: https://jishuzhan.net/article/2037153277050159106
 author:
 published:
 created: 2026-08-05
-description: "最后更新：2026年2月 适用系统：Ubuntu 22.04 LTS（Jammy） / Ubuntu 24.04 LTS（Noble） 适用架构：x86_64 / arm64（包括树莓派）"
+description: 最后更新：2026年2月 适用系统：Ubuntu 22.04 LTS（Jammy） / Ubuntu 24.04 LTS（Noble） 适用架构：x86_64 / arm64（包括树莓派）
 tags:
-  - "clippings"
+  - clippings
 ---
 最后更新：2026年2月
 

@@ -1,5 +1,5 @@
 ---
-title: "Launch - 图书资源"
+title: "Launch"
 source: "https://book.guyuehome.com/ROS2/3.%E5%B8%B8%E7%94%A8%E5%B7%A5%E5%85%B7/3.1_Launch/"
 author:
 published:

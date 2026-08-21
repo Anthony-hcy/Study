@@ -1,12 +1,12 @@
 ---
-title: "ROS和ROS2是什么 - 图书资源"
-source: "https://book.guyuehome.com/ROS2/1.%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%84/1.1_ROS%E5%92%8CROS2%E6%98%AF%E4%BB%80%E4%B9%88/"
+title: ROS和ROS2是什么
+source: https://book.guyuehome.com/ROS2/1.%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%84/1.1_ROS%E5%92%8CROS2%E6%98%AF%E4%BB%80%E4%B9%88/
 author:
 published:
 created: 2026-08-04
-description: "图书资源·古月居"
+description: 图书资源·古月居
 tags:
-  - "clippings"
+  - clippings
 ---
 ## ROS/ROS2是什么
 

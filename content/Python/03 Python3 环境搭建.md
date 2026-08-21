@@ -1,12 +1,12 @@
 ---
-title: "Python3 环境搭建 | 菜鸟教程"
-source: "https://www.runoob.com/python3/python3-install.html"
+title: Python3 环境搭建
+source: https://www.runoob.com/python3/python3-install.html
 author:
 published:
 created: 2026-08-05
-description: "Python3 环境搭建  Python3 具备出色的跨平台兼容性，可稳定运行在 Windows、Linux、Mac OS X 三大主流操作系统中，同时也支持众多其他平台与环境，包括：      Unix 系列（Solaris、Linux、FreeBSD、AIX、HP/UX、SunOS、IRIX 等）     传统Windows系统（9x/NT/2000）     经典Macintosh系统（Intel、PPC、68K架构）     其.."
+description: Python3 环境搭建  Python3 具备出色的跨平台兼容性，可稳定运行在 Windows、Linux、Mac OS X 三大主流操作系统中，同时也支持众多其他平台与环境，包括：      Unix 系列（Solaris、Linux、FreeBSD、AIX、HP/UX、SunOS、IRIX 等）     传统Windows系统（9x/NT/2000）     经典Macintosh系统（Intel、PPC、68K架构）     其..
 tags:
-  - "clippings"
+  - clippings
 ---
 ## Python3.xPython3 环境搭建
 

@@ -1,12 +1,12 @@
 ---
-title: "Python3 基础语法 | 菜鸟教程"
-source: "https://www.runoob.com/python3/python3-basic-syntax.html"
+title: Python3 基础语法
+source: https://www.runoob.com/python3/python3-basic-syntax.html
 author:
 published:
 created: 2026-08-05
 description: "Python3 基础语法 编码   默认情况下，Python3 源码文件以 UTF-8 编码，所有字符串都是 unicode 字符串。  当然你也可以为源码文件指定不同的编码：    # -*- coding: cp-1252 -*-  上述定义允许在源文件中使用 Windows-1252 字符集中的字符编码，对应适合语言为保加利亚语、白俄罗斯语、马其顿语、俄语、塞尔维亚语。    标识符     第一个字符必须以字母（a-z, A-Z.."
 tags:
-  - "clippings"
+  - clippings
 ---
 ## Python3.xPython3 基础语法
 

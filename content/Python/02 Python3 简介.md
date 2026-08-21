@@ -1,12 +1,12 @@
 ---
-title: "Python3 简介 | 菜鸟教程"
-source: "https://www.runoob.com/python3/python3-intro.html"
+title: Python3 简介
+source: https://www.runoob.com/python3/python3-intro.html
 author:
 published:
 created: 2026-08-05
-description: "Python3 简介     Python 是一个高层次的结合了解释性、编译性、互动性和面向对象的脚本语言。  Python 的设计具有很强的可读性，相比其他语言经常使用英文关键字，其他语言的一些标点符号，它具有比其他语言更有特色语法结构。    Python 是一种解释型语言： 这意味着开发过程中没有了编译这个环节。类似于PHP和Perl语言。 Python 是交互式语言： 这意味着，您可以在一个 Python 提示符 >>.."
+description: Python3 简介     Python 是一个高层次的结合了解释性、编译性、互动性和面向对象的脚本语言。  Python 的设计具有很强的可读性，相比其他语言经常使用英文关键字，其他语言的一些标点符号，它具有比其他语言更有特色语法结构。    Python 是一种解释型语言： 这意味着开发过程中没有了编译这个环节。类似于PHP和Perl语言。 Python 是交互式语言： 这意味着，您可以在一个 Python 提示符 >>..
 tags:
-  - "clippings"
+  - clippings
 ---
 ## Python3.xPython3 简介
 

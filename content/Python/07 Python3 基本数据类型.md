@@ -1,12 +1,12 @@
 ---
-title: "Python3 基本数据类型 | 菜鸟教程"
-source: "https://www.runoob.com/python3/python3-data-type.html"
+title: Python3 基本数据类型
+source: https://www.runoob.com/python3/python3-data-type.html
 author:
 published:
 created: 2026-08-06
 description: "Python3 基本数据类型  Python 中的变量不需要声明。每个变量在使用前都必须赋值，变量赋值以后该变量才会被创建。  在 Python 中，变量就是变量，它没有类型，我们所说的类型是变量所指的内存中对象的类型。  等号 = 用来给变量赋值。等号左边是变量名，右边是存储在变量中的值。例如：   实例(Python 3.0+)  [mycode4 type='python'] #!/usr/bin/python.."
 tags:
-  - "clippings"
+  - clippings
 ---
 ## Python3.xPython3 基本数据类型
 
