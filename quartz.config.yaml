@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Quartz 5
-  pageTitleSuffix: ""
+  pageTitle: Healcy
+  pageTitleSuffix: "至若春和景明"
   enableSPA: true
   enablePopovers: true
   analytics:
@@ -44,7 +44,7 @@ plugins:
   - source: "@quartz-themes/core"
     options:
       theme: "abate"
-      mode: "both"  # 或 "dark" / "light"
+      mode: "light"  # 或 "dark" / "light"
   - source: "@quartz-community/created-modified-date"
     enabled: true
     options:
@@ -235,7 +235,7 @@ plugins:
       position: footer
       priority: 50
   - source: "@quartz-community/recent-notes"
-    enabled: false
+    enabled: true
   - source: "@quartz-community/spacer"
     enabled: true
     options: {}
