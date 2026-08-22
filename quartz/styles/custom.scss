@@ -1,3 +1,73 @@
 @use "./variables.scss" as *;
 
 // put your custom CSS here!
+/* 让 Properties 区域左对齐、紧凑、无多余装饰 */
+.note-properties.metadata-container {
+  margin: 0.5rem 0;
+  padding: 0;
+  border: none;
+  background: transparent;
+
+  summary {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--darkgray);
+    margin-bottom: 0.1rem;
+    cursor: pointer;
+    padding-left: 0.1rem;           /* 左对齐 */
+    margin-left: 0;            /* 左对齐 */
+    text-align: left;          /* 左对齐 */
+
+    /* 调整箭头与文字间距（可选） */
+    &::marker {
+      margin-right: 0.15rem;
+    }
+  }
+
+  .note-properties-table {
+    width: auto;
+    border-collapse: collapse;
+    margin: 0;
+
+    .note-properties-row {
+      border: none;
+    }
+
+    .note-properties-key {
+      font-weight: 600;
+      color: var(--darkgray);
+      padding: 0.05rem 1.5rem 0.05rem 0;   /* 这里的 0.5rem 就是键与值的间距 */
+      vertical-align: top;
+      text-align: left;
+      white-space: nowrap;
+      font-size: 0.8rem;
+      width: auto;
+    }
+
+    .note-properties-value {
+      padding: 0.05rem 0;
+      vertical-align: top;
+      font-size: 0.85rem;
+      color: var(--dark);
+      word-break: break-word;
+
+      a {
+        word-break: break-all;
+      }
+    }
+
+    .note-properties-tags .tag-link {
+      background: var(--highlight);
+      padding: 0 0.4rem;
+      border-radius: 10px;
+      font-size: 0.75rem;
+      color: var(--secondary);
+      text-decoration: none;
+      &:hover {
+        background: var(--secondary);
+        color: var(--light);
+      }
+    }
+  }
+}
+

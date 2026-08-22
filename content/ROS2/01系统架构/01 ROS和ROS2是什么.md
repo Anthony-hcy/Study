@@ -133,7 +133,3 @@ ROS全球社区有几个重要网站：
 最后是 **本教程网站** ，会提供详细的ROS2入门教程，后续也会不断更新和扩展，努力成为大家学习ROS机器人开发的百科全书，配合课程视频学习，效果会更好。
 
 好啦，欢迎大家来到ROS的世界，从这里开始，我们将一起踏上一段美妙的机器人开发之旅。
-
-![交流群](https://book.guyuehome.com/ROS2/1.%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%84/image/%E4%BA%A4%E6%B5%81%E7%BE%A4.png)
-
-[![图片1](https://book.guyuehome.com/ROS2/1.%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%84/image/footer.png)](https://www.guyuehome.com/)

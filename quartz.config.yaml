@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Healcy
-  pageTitleSuffix: "|至若春和景明"
+  pageTitle: Haelcy
+  pageTitleSuffix: " | 至若春和景明"
   enableSPA: true
   enablePopovers: true
   analytics:
@@ -98,7 +98,7 @@ plugins:
   - source: "@quartz-community/latex"
     enabled: true
     options:
-      renderEngine: katex
+      renderEngine: mathjax
     order: 80
   - source: "@quartz-community/citations"
     enabled: false
@@ -254,6 +254,7 @@ plugins:
       includeAll: false
       includedProperties:
         - description
+        - source
         - tags
         - aliases
       excludedProperties: []

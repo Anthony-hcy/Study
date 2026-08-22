@@ -146,7 +146,3 @@ ROS2对命令行做了大幅度的集成，所有命令都集成在一个ros2的
 好啦，以上，我们把ROS2和ROS1做了对比，总结而言就是：
 
 如果大家初次上手就选择了ROS2，现有一个大致印象即可，跟随教程，你就会慢慢理解这些特性。
-
-![交流群](https://book.guyuehome.com/ROS2/1.%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%84/image/%E4%BA%A4%E6%B5%81%E7%BE%A4.png)
-
-[![图片1](https://book.guyuehome.com/ROS2/1.%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%84/image/footer.png)](https://www.guyuehome.com/)

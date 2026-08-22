@@ -284,5 +284,3 @@ DDS本身是一个非常复杂的系统，ROS2使用的也只是冰山一角，�
 [https://docs.ros.org/en/humble/How-To-Guides/Working-with-multiple-RMW-implementations.html](https://docs.ros.org/en/humble/How-To-Guides/Working-with-multiple-RMW-implementations.html)
 
 [https://www.bilibili.com/video/BV12z4y167w2](https://www.bilibili.com/video/BV12z4y167w2)
-
-[![图片1](https://book.guyuehome.com/ROS2/2.%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5/image/footer.png)](https://www.guyuehome.com/)

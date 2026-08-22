@@ -58,5 +58,3 @@ $ rqt
 [https://docs.ros.org/en/humble/Concepts/About-RQt.html](https://docs.ros.org/en/humble/Concepts/About-RQt.html)
 
 [https://docs.ros.org/en/humble/Tutorials/Rqt-Console/Using-Rqt-Console.html](https://docs.ros.org/en/humble/Tutorials/Rqt-Console/Using-Rqt-Console.html)
-
-[![图片1](https://book.guyuehome.com/ROS2/3.%E5%B8%B8%E7%94%A8%E5%B7%A5%E5%85%B7/image/footer.png)](https://www.guyuehome.com/)
