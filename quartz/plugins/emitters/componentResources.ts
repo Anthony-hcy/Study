@@ -81,6 +81,54 @@ async function joinScripts(scripts: string[]): Promise<string> {
   return res.code
 }
 
+// 全站网易云音乐播放器 (NMPv2 兼容加载器形态)
+const musicDockScript = `
+  const V2_CSS = "https://api.hypcvgm.top/NeteaseMiniPlayer/netease-mini-player-v2.css"
+  const V2_JS  = "https://api.hypcvgm.top/NeteaseMiniPlayer/netease-mini-player-v2.js"
+
+  function pinPlayerStyles() {
+    const s = document.getElementById("nmpv3-style")
+    if (s && !s.hasAttribute("data-persist")) {
+      s.setAttribute("data-persist", "")
+      console.log("[music] 样式表已持久化")
+    }
+  }
+
+  async function ensureMusicDock() {
+    if (document.documentElement.querySelector(":scope > .nmp-dock-host")) {
+      pinPlayerStyles()
+      return
+    }
+
+    // 先放容器（loader 初始化时会扫描全文档）
+    const host = document.createElement("div")
+    host.className = "nmp-dock-host"
+    host.innerHTML = '<div class="netease-mini-player" data-playlist-id="2348674204" data-position="bottom-right" data-lyric="true" data-theme="auto" data-autoplay="false" data-auto-pause="true"></div>'
+    document.documentElement.appendChild(host)
+
+    // 再注入 v2 css + 兼容加载器（它内部会自行拉起 NMPv3）
+    await Promise.all([
+      new Promise(ok => {
+        const link = document.createElement("link")
+        link.rel = "stylesheet"; link.href = V2_CSS; link.onload = ok
+        document.head.appendChild(link)
+      }),
+      new Promise((ok, err) => {
+        const s = document.createElement("script")
+        s.src = V2_JS; s.onload = ok; s.onerror = err
+        document.head.appendChild(s)
+      })
+    ])
+
+    pinPlayerStyles()
+    setTimeout(pinPlayerStyles, 300)
+    console.log("[music] 宿主已挂载(v2形态)")
+  }
+
+  ensureMusicDock().catch(e => console.error("[music] 失败：", e))
+  document.addEventListener("nav", () => ensureMusicDock().catch(e => console.error("[music] nav失败：", e)))
+`
+
 function addGlobalPageResources(ctx: BuildCtx, componentResources: ComponentResources) {
   const cfg = ctx.cfg.configuration
 
@@ -268,6 +316,8 @@ function addGlobalPageResources(ctx: BuildCtx, componentResources: ComponentReso
       document.dispatchEvent(event)
     `)
   }
+    // 全站网易云音乐播放器
+  componentResources.afterDOMLoaded.push(musicDockScript)
 }
 
 // This emitter should not update the `resources` parameter. If it does, partial
