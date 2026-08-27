@@ -9,7 +9,7 @@ title: Home
 
 # Welcome
 
-这是一个基于 Obsidian 和 Quartz 构建的个人知识库。
+这是一个基于 Obsidian 和 Quartz 构建的[个人知识库](https://anthony-hcy.github.io/Study/)。
 <!-- 每日一言（Hitokoto） -->
 <div id="hitokoto" style="margin: 0.5rem 0 -2rem 0; color: var(--darkgray);">
   加载中...
